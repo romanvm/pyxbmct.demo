@@ -6,7 +6,7 @@
 import os
 import xbmc
 import xbmcaddon
-import pyxbmct.addonwindow as pyxbmct
+import pyxbmct
 
 _addon = xbmcaddon.Addon()
 _addon_path = _addon.getAddonInfo('path')
