@@ -46,7 +46,10 @@ class MyAddon(pyxbmct.AddonDialogWindow):
         # TextBox
         self.textbox = pyxbmct.TextBox()
         self.placeControl(self.textbox, 3, 1, 2, 1)
-        self.textbox.setText('Text box.\nIt can contain several lines.')
+        self.textbox.setText('It can display long text.\n'
+                             'Lorem ipsum dolor sit amet, consectetur adipiscing elit.')
+        # Set auto-scrolling for long TexBox contents
+        self.textbox.autoScroll(1000, 1000, 1000)
         #
         image_label = pyxbmct.Label('Image')
         self.placeControl(image_label, 5, 0)
