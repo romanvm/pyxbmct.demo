@@ -54,7 +54,7 @@ class MyAddon(pyxbmct.AddonDialogWindow):
         image_label = pyxbmct.Label('Image')
         self.placeControl(image_label, 5, 0)
         # Image
-        self.image = pyxbmct.Image(os.path.join(_addon_path, 'xbmc-logo.png'))
+        self.image = pyxbmct.Image(os.path.join(_addon_path, 'bbb-splash.jpg'))
         self.placeControl(self.image, 5, 1, 2, 1)
 
     def set_active_controls(self):
