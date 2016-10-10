@@ -11,6 +11,9 @@ import pyxbmct
 _addon = xbmcaddon.Addon()
 _addon_path = _addon.getAddonInfo('path')
 
+# Enable or disable Estuary-based design explicitly
+# pyxbmct.skin.estuary = True
+
 
 class MyAddon(pyxbmct.AddonDialogWindow):
 
