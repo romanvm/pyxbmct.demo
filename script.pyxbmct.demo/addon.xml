@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.pyxbmct.demo"
    name="PyXBMCt Demo"
-   version="1.1.2"
+   version="1.1.3"
    provider-name="Roman_V_M">
   <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.pyxbmct" version="1.1.4" />
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.pyxbmct" />
   </requires>
   <extension point="xbmc.python.script" library="default.py">
     <provides>executable</provides>
