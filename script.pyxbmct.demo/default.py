@@ -74,7 +74,7 @@ class MyAddon(pyxbmct.AddonDialogWindow):
         edit_label = pyxbmct.Label('Edit')
         self.placeControl(edit_label, 2, 2)
         # Edit
-        self.edit = pyxbmct.Edit('Edit')
+        self.edit = pyxbmct.Edit()
         self.placeControl(self.edit, 2, 3)
         # Additional properties must be changed after (!) displaying a control.
         self.edit.setText('Enter text here')
