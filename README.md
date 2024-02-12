@@ -1,5 +1,5 @@
-PyXBMCt
-=======
+PyXBMCt Demo Adon
+=================
 
 This repository contains a demo add-on for Kodi (XBMC) PyXBMCt framework.
 
